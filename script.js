@@ -19,7 +19,7 @@ async function getMenu(){
                     <div class="price">
                     <div class="name">
                     <p>${data[i]["name"]}</p>
-                    <p>${data[i]["price"]}/-</p>
+                    <p>$${data[i]["price"]}/-</p>
                     </div>
                     <div class="plus-icon">
                         <img src="./plus (1) 1.svg" alt="plus Icon">
@@ -43,7 +43,7 @@ async function getMenu(){
                         <div class="price">
                         <div class="name">
                         <p>${data[i]["name"]}</p>
-                        <p>${data[i]["price"]}/-</p>
+                        <p>$${data[i]["price"]}/-</p>
                         </div>
                         <div class="plus-icon">
                             <img src="./plus (1) 1.svg" alt="plus Icon">
